@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  color: white;
+  transform:translate(-6px, 35px);
+  text-align: center;
+  align-items: center;
+ 
+  
+}
+.container{
+  text-align: center;
+  background:linear-gradient( to right, #9DB5B2,#5B6C5D);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 130px auto;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 7px 7px 14px gray;
+  width: 300px;
+  height: 350px;
+}
+.first{
+  text-align: center;
+  align-self: center;
+  margin: 80px 3px;
+}
+.second{
+  text-align: center;
+  align-self: center;
+  margin: -40px 3px;
+}
+.input{
+  border: none;
+  outline: none;
+  border-radius: 11px;
+  padding: 10px;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+}
+.input:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+
+.output{
+  border: none;
+  outline: none;
+  border-radius: 11px;
+  padding: 10px;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+}
+.output:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696;
+}
+.checkbox{
+  margin-top: 20px;
+  margin-left: -50px;
+}
+span{
+  font-size:15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  color:white;
+}
+button{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(77,100,94,1) 35%, rgba(0,212,255,1) 100%);
+  
+  padding: 5px;
+  position: relative;
+  width: 7.2em;
+  height: 2em;
+  transition: 0.5s;
+  font-size: 17px;
+  border-radius: 0.4em;
+  top: 60px;
+}
+button p {
+  position: absolute;
+  top: 0.4em;
+  left: 1.2em;
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+  color: white;
+  font-weight: 900;
+  
+}
+img {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: 0.5s;
+  border-radius: 6px;
+
+}
+button:hover p {
+  left: 0.6em;
+  color: gray;
+}
+
+button:hover img {
+  opacity: 2;
+}
+
+button:hover {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,190,160,0.8281146565071341) 35%, rgba(0,212,255,1) 100%);
+}
+
+
